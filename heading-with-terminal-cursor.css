@@ -1,0 +1,71 @@
+h1:after,
+.markdown-rendered h1:after,
+.HyperMD-header-1:after,
+.inline-title[data-level="1"]:after,
+.HyperMD-header.HyperMD-header-1.cm-line:after,
+.HyperMD-list-line .cm-header-1:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+h2:after,
+.markdown-rendered h2:after,
+.HyperMD-header-2:after,
+.inline-title[data-level="2"]:after,
+.HyperMD-header.HyperMD-header-2.cm-line:after,
+.HyperMD-list-line .cm-header-2:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+h3:after,
+.markdown-rendered h3:after,
+.HyperMD-header-3:after,
+.inline-title[data-level="3"]:after,
+.HyperMD-header.HyperMD-header-3.cm-line:after,
+.HyperMD-list-line .cm-header-3:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+h4:after,
+.markdown-rendered h4:after,
+.HyperMD-header-4:after,
+.inline-title[data-level="4"]:after,
+.HyperMD-header.HyperMD-header-4.cm-line:after,
+.HyperMD-list-line .cm-header-4:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+h5:after,
+.markdown-rendered h5:after,
+.HyperMD-header-5:after,
+.inline-title[data-level="5"]:after,
+.HyperMD-header.HyperMD-header-5.cm-line:after,
+.HyperMD-list-line .cm-header-5:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+h6:after,
+.markdown-rendered h6:after,
+.HyperMD-header-6:after,
+.inline-title[data-level="6"]:after,
+.HyperMD-header.HyperMD-header-6.cm-line:after,
+.HyperMD-list-line .cm-header-6:after {
+  content: "_";
+  animation: cursor-animation 2.5s infinite steps(1, end);
+}
+
+@keyframes cursor-animation {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=heading-with-terminal-cursor.css.map */
