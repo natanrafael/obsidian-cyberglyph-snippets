@@ -1,0 +1,17 @@
+hr,
+.hr,
+.markdown-rendered hr {
+    animation: hr-flick 10s infinite steps(1, end);
+}
+
+@keyframes hr-flick {
+    00%,
+    07% {
+        transform: skew(25deg);
+    }
+
+    04%,
+    09% {
+        transform: skew(0deg);
+    }
+}
